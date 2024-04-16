@@ -2,10 +2,17 @@
   "name": "mapty-app-oop-javascript",
   "version": "1.0.0",
   "description": "My workout map project.",
-  "main": "script.js",
+  "default": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Shemuel Chukwukadibia",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1"
+  }
 }
